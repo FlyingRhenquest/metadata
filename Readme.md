@@ -31,7 +31,9 @@ them.
 If it builds OK, the next step is the fun bit.
 
    python3
+   
    import FRMetadata
+   
    m = FRMetadata.Metadata()
    
 This creates a C++ shared pointer and returns the object to Python. So you can
